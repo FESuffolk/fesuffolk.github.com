@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+html{
+  background:#100000;
+  color:#100000;
+  text-shadow: 1px 1px 1px #eee;
+  font-family:sans-serif;
+}
+body{
+  width:600px;
+  margin:0 auto;
+}
+header{
+  background:#ccc;
+}
+
+article{
+  padding:20px;
+  padding-bottom:0;
+  border:1px solid #ccc;
+  background:#fff;
+}
+
+h1{
+  font-size:30px;
+  padding:20px;
+  border:1px solid #ccc;
+  text-align:center;
+}
+
+h2{
+  font-size:24px;
+  margin-bottom:20px;
+}
+
