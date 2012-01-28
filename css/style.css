@@ -11,7 +11,8 @@ html{
 }
 body{
   width:900px;
-  margin:0 auto;
+  margin:0;
+  z-index:2;
 }
 header{
   background:#fefeff;
@@ -53,5 +54,19 @@ aside{
   background:#2f3030;
   width:220px;
   padding:20px;
+}
+
+span.background {
+  color: #FF0000;
+  font-size: 400px;
+  font-weight: bold;
+  line-height: 400px;
+  margin: 0;
+  padding: 40px;
+  position: absolute;
+  right: 20px;
+  text-shadow: 2px 2px #000000;
+  top: 20px;
+  z-index: -1;
 }
 
