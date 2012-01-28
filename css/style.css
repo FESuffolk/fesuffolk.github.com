@@ -69,4 +69,16 @@ span.background {
   top: 20px;
   z-index: -1;
 }
-
+@media all and (orientation:landscape) {
+  body { width:1024px;}
+  article {width:700px;}
+  aside{width:242px;}
+  span.background {display:none;}
+}
+ 
+@media all and (orientation:portrait) {
+  body { width:768px;}
+  article{width:550px;padding:10px;}
+  aside{width:178px;padding:10px;}
+  span.background {display:none;}
+}
