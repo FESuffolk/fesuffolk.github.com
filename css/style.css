@@ -10,7 +10,7 @@ html{
   font-family:sans-serif;
 }
 body{
-  width:600px;
+  width:900px;
   margin:0 auto;
 }
 header{
@@ -23,15 +23,35 @@ header h1{
   color:#c33;
   text-align:center;
 }
+div{
+  display:table-row;
+}
 article{
   padding:20px;
   padding-bottom:0;
   border:1px solid #ccc;
   background:#ededed;
+  width:600px;
+  display:table-cell;
 }
 
-h2{
-  font-size:24px;
+section{
+  padding:10px;
+  border-radius:5px;
+  background:#fff;
+  border:1px solid #ccc;
   margin-bottom:20px;
+}
+
+section h2{
+  font-size:24px;
+  margin-bottom:12px;
+}
+
+aside{
+  display:table-cell;
+  background:#2f3030;
+  width:220px;
+  padding:20px;
 }
 
