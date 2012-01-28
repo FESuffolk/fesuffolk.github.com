@@ -70,10 +70,10 @@ span.background {
   z-index: -1;
 }
 @media only screen and (max-device-width: 480px) {
-  body{width:auto;}
+  body{width:100%;}
   article, aside{
     display:block;
-    width:auto;
+    width:100%;
   }
 }
 
