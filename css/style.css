@@ -69,6 +69,16 @@ span.background {
   top: 20px;
   z-index: -1;
 }
+
+a{
+  color:#ccc;
+  text-decoration:none;
+  font-weight:bold;
+}
+a:hover{
+  color:#999;
+}
+
 @media only screen and (max-device-width: 480px) {
   body{width:100%;}
   article, aside{
@@ -76,7 +86,6 @@ span.background {
     width:100%;
   }
 }
-
 
 @media all and (orientation:landscape) {
   body { width:1024px;}
