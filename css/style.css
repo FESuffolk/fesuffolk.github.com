@@ -1,3 +1,17 @@
+@keyframes color-shift{
+  from {background-color:#fff;}
+  to {background-color:#eee;}
+}
+
+@-moz-keyframes color-shift{
+  from {background-color:#fff;}
+  to {background-color:#eee;}
+}
+
+@-webkit-keyframes color-shift {
+  from {background-color:#fff;}
+  to {background-color:#eee;}
+}
 *{
   margin:0;
   padding:0;
@@ -23,6 +37,9 @@ header h1{
   border:1px solid #ccc;
   color:#c33;
   text-align:center;
+  animation:color-shift 10s infinite;
+  -moz-animation:color-shift 10s infinite;
+  -webkit-animation:color-shift 10s infinite;
 }
 div{
   display:table-row;
