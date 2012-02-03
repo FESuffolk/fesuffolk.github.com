@@ -74,6 +74,9 @@ span.background {
   top: 20px;
   z-index: -1;
 }
+iframe{
+  clear:both;
+}
 
 a{
   color:#ccc;
