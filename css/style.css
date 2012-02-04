@@ -1,6 +1,7 @@
+
 @keyframes color-shift{
   0% {background-color:#fff;}
-  50% {background-color:#eef;}
+  50% {background-color:#dedeed;}
   100% {background-color:#fff;}
 }
 
