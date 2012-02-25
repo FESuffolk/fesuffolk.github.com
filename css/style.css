@@ -47,6 +47,7 @@ header h1{
 div{
   display:table-row;
 }
+
 article{
   padding:20px;
   padding-bottom:0;
@@ -80,20 +81,6 @@ aside{
   width:220px;
   padding:20px;
 }
-
-span.background {
-  color: #FF0000;
-  font-size: 400px;
-  font-weight: bold;
-  line-height: 400px;
-  margin: 0;
-  padding: 40px;
-  position: absolute;
-  right: 20px;
-  text-shadow: 2px 2px #000000;
-  top: 20px;
-  z-index: -1;
-}
 iframe{
   clear:both;
 }
@@ -106,12 +93,11 @@ a{
 a:hover{
   color:#999;
 }
-
 @media only screen and (max-device-width: 480px) {
   body{width:100%;}
   article, aside{
     display:block;
-    width:100%;
+    width:auto;
   }
 }
 
