@@ -48,6 +48,7 @@ header h1{
 div{
   display:table-row;
 }
+
 article{
   padding:20px;
   padding-bottom:0;
@@ -81,6 +82,7 @@ aside{
   width:220px;
   padding:20px;
 }
+<<<<<<< HEAD
 aside ol{
   
 }
@@ -103,6 +105,8 @@ span.background {
   top: 20px;
   z-index: -1;
 }
+=======
+>>>>>>> 110673df525bf06b6613e2545c09c2f430847957
 iframe{
   clear:both;
 }
@@ -115,12 +119,11 @@ a{
 a:hover{
   color:#999;
 }
-
 @media only screen and (max-device-width: 480px) {
   body{width:100%;}
   article, aside{
     display:block;
-    width:100%;
+    width:auto;
   }
 }
 
