@@ -81,6 +81,14 @@ aside{
   width:220px;
   padding:20px;
 }
+aside ol{
+  
+}
+
+aside ol li{
+  list-style:none;
+  
+}
 
 span.background {
   color: #FF0000;
