@@ -3,5 +3,8 @@
 This Project is intended to be a Promotional site for the group Front End Suffolk, A Browser based user group.
 Enjoy.
 
+[Google Group](https://groups.google.com/forum/#!forum/front-end-suffolk)
+[Site](http://fesuffolk.github.com)
+
 Anders
 ^__^
