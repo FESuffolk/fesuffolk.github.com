@@ -1,49 +1,45 @@
 
-@keyframes color-shift{
-  0% {background-color:#fff;}
-  50% {background-color:#dedeed;}
-  100% {background-color:#fff;}
-}
-
 @-moz-keyframes color-shift{
-  0% {background-color:#fff;}
-  50% {background-color:#eef;}
-  100% {background-color:#fff;}
+  0% {background-position:0 0;}
+  25% {background-position:0 1000px;}
+  50% {background-position:1000px 1000px;}
+  75% {background-position:1000px 0;}
+  100% {background-position:0 0;}
 }
 
 @-webkit-keyframes color-shift {
-  0% {background-color:#fff;}
-  50% {background-color:#eee;}
-  100% {background-color:#fff;}
+  0% {background-position:0 0;}
+  25% {background-position:0 1000px;}
+  50% {background-position:1000px 1000px;}
+  75% {background-position:1000px 0;}
+  100% {background-position:0 0;}
 }
+
+
 *{
   margin:0;
   padding:0;
   border:0;
 }
 html{
-  background:#100000;
   color:#100000;
   text-shadow: 1px 1px 1px #eee;
   font-family:sans-serif;
+  background-color:#dedede;
+  background-image: -moz-radial-gradient(center, ellipse cover,  #fff 10%, #dedede 70%);
+  background-image: -webkit-radial-gradient(center, ellipse cover,  #fff 10%,#dedede 70%);
+  background-repeat:no-repeat;
+  -moz-animation:color-shift 100s infinite ease-out;
+  -webkit-animation:color-shift 100s infinite ease-out;
 }
 body{
   width:900px;
-  margin:0;
+  margin:0 auto;
   z-index:2;
 }
-header{
-  background:#fefeff;
-}
-header h1{
-  font-size:30px;
+header img{
   padding:20px;
-  border:1px solid #ccc;
-  color:#c33;
   text-align:center;
-  animation:color-shift 10s infinite;
-  -moz-animation:color-shift 10s infinite;
-  -webkit-animation:color-shift 10s infinite;
 }
 div{
   display:table-row;
@@ -52,8 +48,6 @@ div{
 article{
   padding:20px;
   padding-bottom:0;
-  border:1px solid #ccc;
-  background:#ededed;
   width:600px;
   display:table-cell;
 }
@@ -61,7 +55,6 @@ article{
 section{
   padding:10px;
   border-radius:5px;
-  background:#fff;
   border:1px solid #ccc;
   margin-bottom:20px;
 }
@@ -78,35 +71,15 @@ section h3{
 
 aside{
   display:table-cell;
-  background:#2f3030;
   width:220px;
   padding:20px;
-}
-<<<<<<< HEAD
-aside ol{
-  
 }
 
 aside ol li{
   list-style:none;
-  
+  margin-bottom:15px;
 }
 
-span.background {
-  color: #FF0000;
-  font-size: 400px;
-  font-weight: bold;
-  line-height: 400px;
-  margin: 0;
-  padding: 40px;
-  position: absolute;
-  right: 20px;
-  text-shadow: 2px 2px #000000;
-  top: 20px;
-  z-index: -1;
-}
-=======
->>>>>>> 110673df525bf06b6613e2545c09c2f430847957
 iframe{
   clear:both;
 }
