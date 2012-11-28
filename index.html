@@ -80,8 +80,23 @@
             <li><a href="http://fesuffolk.github.com/Slide-show/">Clever Selectors<br>Anders Fisher</a></li>
           </ol>
         </section>
+        <section>
+          <a class="twitter-timeline" data-dnt=true href="https://twitter.com/FESuffolk" data-widget-id="273898010969243648">Tweets by @FESuffolk</a>
+        </section>
       </aside>
     </div>
+    <script>
+      !function(id){
+        var newJs,
+        firstJs = document.getElementsByTagName("script")[0];
+        if(!document.getElementById(id)){
+          newJs = document.createElement("script");
+          newJs.id = id;
+          newJs.src = "//platform.twitter.com/widgets.js";
+          firstJs.parentNode.insertBefore(newJs,firstJs);
+        }
+      }("twitter-wjs");
+    </script>
     <script src="js/app.js"></script>
   </body>
 </html>
