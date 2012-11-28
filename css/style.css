@@ -4,14 +4,9 @@
   border:0;
 }
 html{
-  color:#100000;
+  color:#333;
   text-shadow: 1px 1px 1px #eee;
-  font-family:sans-serif;
-  background-color:#dedede;
-  background-image: -moz-radial-gradient(center, ellipse cover,  #ddf 10%, #f5f5f0 70%);
-  background-image: -webkit-radial-gradient(center, ellipse cover,  #ddf 10%,#f5f5f0 70%);
-  background-size:10px 100% ;
-  background-repeat: repeat-x;
+  font-family: 'Droid Sans', sans-serif;
 }
 body{
   width:900px;
@@ -19,30 +14,42 @@ body{
   z-index:2;
 }
 header img{
-  padding:20px;
+  padding:15px;
   text-align:center;
 }
+
 div{
   display:table-row;
 }
 
+p{
+  font-size:16px;
+  line-height:20px;
+}
+
 article{
-  padding:20px;
+  padding:15px;
   padding-bottom:0;
   width:600px;
   display:table-cell;
 }
 
 section{
-  padding:10px;
-  border-radius:5px;
-  border:1px solid #ccc;
-  margin-bottom:20px;
+  padding:10px 15px;
+  margin-bottom:15px;
+  background:rgba(255,255,255,0.9);
+  border: 5px solid #333;
+  border-radius: 2px;
 }
 
 section h2{
   font-size:24px;
-  margin-bottom:12px;
+  padding:10px 15px;
+  margin:-15px;
+  margin-bottom:15px;
+  background:#333;
+  color:white;
+  text-shadow: 1px 1px 1px black;
 }
 
 section h3{
@@ -52,35 +59,63 @@ section h3{
 
 aside{
   display:table-cell;
-  width:220px;
-  padding:20px;
+  width:auto;
 }
-
+aside ol{
+  border-radius: 2px;
+  overflow: hidden;
+}
 aside ol li{
   list-style:none;
-  margin-bottom:15px;
+  background:#999;
+  color:white;
+  padding:10px;
+  text-shadow:none;
+}
+
+aside ol li:nth-child(even){
+  background:#333;
+}
+
+aside ol li a{
+  background:none;
+  display:inline;
+  padding:0;
+  color:white;
+  font-weight:lighter;
+}
+
+aside ol li a:hover{
+  color:#ccc;
+  background:none;
 }
 
 iframe{
   clear:both;
+  width:100%;
+  border-radius:2px;
+  overflow:hidden;
+  margin-bottom:15px;
 }
 
 a{
   color:#333;
   text-decoration:none;
   font-weight: lighter;
-  display: inline-block;
   padding: 5px;
   background: #DDD;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 a:hover{
-  color:#999;
+  color:#ddd;
+  background:#333;
+  text-shadow:1px 1px 1px black;
 }
 .warning{
   background-color:#993333;
   color:#fff;
 }
+
 @media all and (max-width: 440px){
   body,
   div,
@@ -88,6 +123,13 @@ a:hover{
   aside{
     display:block;
     width:auto;
+  }
+  aside{
+    padding: 0 20px;
+  }
+  aside ol{
+    overflow-y: scroll;
+    max-height: 300px;
   }
 }
 
@@ -99,7 +141,11 @@ a:hover{
     display:block;
     width:auto;
   }
+  aside{
+    padding: 0 20px;
+  }
 }
+
 @media all and (max-width: 900px) and (min-width: 700px) {
   body,
   div,
@@ -108,8 +154,30 @@ a:hover{
     display:block;
     width:auto;
   }
+  section{
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    padding-top:60px;
+    position:relative;
+  }
+  section h2{
+    margin:0;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  aside{
+    padding: 0 20px;
+  }
+  aside ol li{
+    display: inline-block;
+    width: 100%;
+  }
  
 }
+
 @media all and (min-width: 901px) {
  
 }
