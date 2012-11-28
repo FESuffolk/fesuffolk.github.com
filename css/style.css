@@ -51,9 +51,16 @@ section h2{
   color:white;
   text-shadow: 1px 1px 1px black;
 }
+section h1{
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: -2px;
+  word-spacing: 3px;
+}
 
 section h3{
-  font-size:16px;
+  font-size:24px;
+  font-weight:normal;
   margin-bottom:5px;
 }
 
