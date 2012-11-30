@@ -187,3 +187,15 @@ a:hover{
 @media all and (min-width: 901px) {
  
 }
+
+@media all and (min-width: 352px){
+  img.logo-narrow {
+    display: none;
+  }
+}
+
+@media all and (max-width: 352px){
+  img.logo-normal {
+    display: none;
+  }
+}
