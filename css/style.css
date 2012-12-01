@@ -25,6 +25,7 @@ div{
 p{
   font-size:16px;
   line-height:20px;
+  margin: 10px 0;
 }
 
 article{
@@ -108,7 +109,7 @@ a{
   color:#333;
   text-decoration:none;
   font-weight: lighter;
-  padding: 5px;
+  padding: 2px 1px;
   background: #DDD;
   border-radius: 2px;
 }
