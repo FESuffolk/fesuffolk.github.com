@@ -185,8 +185,45 @@ a:hover{
  
 }
 
-@media all and (min-width: 901px) {
- 
+@media all and (min-width: 1200px) {
+  body{
+    width:auto;
+  }
+  section{
+    display:inline-block;
+    width:300px;
+    width:-webkit-calc(100% - 40px);
+    vertical-align:top;
+  }
+  aside,
+  article{
+    display:inline;
+    padding:0;
+  }
+ div{
+  display:block;
+  -moz-column-count:3;
+  -webkit-column-count:3;
+  column-count:3;
+  -moz-column-gap:20px;
+  -webkit-column-gap:20px;
+  column-gap:20px;
+  padding: 0 15px;
+ }
+}
+
+@media all and (min-width: 1900px) {
+  section{
+    display:inline-block;
+    width:400px;
+    width:-webkit-calc(100% - 40px);
+    vertical-align:top;
+  }
+  div{
+    -moz-column-count:5;
+    -webkit-column-count:5;
+    column-count:5;
+  }
 }
 
 @media all and (min-width: 352px){
