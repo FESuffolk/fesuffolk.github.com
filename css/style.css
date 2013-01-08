@@ -216,8 +216,9 @@ a:hover{
 @media all and (min-width: 1900px) {
   section{
     display:inline-block;
-    width:400px;
+    width:auto;
     width:-webkit-calc(100% - 40px);
+    width:calc(100% - 40px);
     vertical-align:top;
   }
   div{
