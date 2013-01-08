@@ -74,26 +74,26 @@ aside ol{
 }
 aside ol li{
   list-style:none;
-  background:#999;
-  color:white;
+  background:#eee;
+  color:#555;
   padding:10px;
   text-shadow:none;
 }
 
 aside ol li:nth-child(even){
-  background:#333;
+  background:white;
 }
 
 aside ol li a{
   background:none;
   display:inline;
   padding:0;
-  color:white;
+  color:#333;
   font-weight:lighter;
 }
 
 aside ol li a:hover{
-  color:#ccc;
+  color:#666;
   background:none;
 }
 
