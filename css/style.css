@@ -4,7 +4,7 @@
   border:0;
 }
 html{
-  color:#333;
+  color:#555;
   text-shadow: 1px 1px 1px #eee;
   font-family: 'Droid Sans', sans-serif;
 }
@@ -56,9 +56,11 @@ section h1{
   font-weight: lighter;
   letter-spacing: -2px;
   word-spacing: 3px;
+  color:#444;
 }
 
 section h3{
+  color:#444;
   font-size:24px;
   font-weight:normal;
   margin-bottom:5px;
@@ -75,7 +77,6 @@ aside ol{
 aside ol li{
   list-style:none;
   background:#eee;
-  color:#555;
   padding:10px;
   text-shadow:none;
 }
@@ -108,15 +109,9 @@ iframe{
 a{
   color:#333;
   text-decoration:none;
-  font-weight: lighter;
-  padding: 2px 1px;
-  background: #DDD;
-  border-radius: 2px;
 }
 a:hover{
-  color:#ddd;
-  background:#333;
-  text-shadow:1px 1px 1px black;
+  color:#666;
 }
 .warning{
   background-color:#993333;
