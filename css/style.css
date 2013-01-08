@@ -191,8 +191,9 @@ a:hover{
   }
   section{
     display:inline-block;
-    width:300px;
+    width:auto;
     width:-webkit-calc(100% - 40px);
+    width:calc(100% - 40px);
     vertical-align:top;
   }
   aside,
