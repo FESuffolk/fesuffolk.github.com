@@ -86,7 +86,8 @@ aside{
 }
 aside ol{
   border-radius: 2px;
-  overflow: hidden;
+  overflow-y: scroll;
+  max-height: 720px;
 }
 
 aside ol li a{
