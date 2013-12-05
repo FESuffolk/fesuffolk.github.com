@@ -119,11 +119,17 @@ iframe{
 }
 
 a{
-  color:#333;
+  color:white;
   text-decoration:none;
+  display:inline-block;
+  background:#5c5;
+  padding:6px;
+  border-radius:2px;
+  border:2px solid #5c5;
 }
 a:hover{
-  color:#666;
+  color:#5c5;
+  background:white;
 }
 .warning{
   background-color:#993333;
@@ -169,10 +175,6 @@ a:hover{
     width:auto;
   }
   section{
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
     padding-top:60px;
     position:relative;
   }
@@ -210,12 +212,6 @@ a:hover{
   }
  div{
   display:block;
-  -moz-column-count:3;
-  -webkit-column-count:3;
-  column-count:3;
-  -moz-column-gap:20px;
-  -webkit-column-gap:20px;
-  column-gap:20px;
   padding: 0 15px;
  }
 }
@@ -229,9 +225,6 @@ a:hover{
     vertical-align:top;
   }
   div{
-    -moz-column-count:5;
-    -webkit-column-count:5;
-    column-count:5;
   }
 }
 
