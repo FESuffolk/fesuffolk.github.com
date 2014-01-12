@@ -27,7 +27,7 @@ p{
   margin: 10px 0;
 }
 
-a{
+h2 a{
   color:#5c5;
   background:white;
   text-decoration:none;
@@ -37,7 +37,7 @@ a{
   border:2px solid #5c5;
   transition:all 0.5s ease-out;
 }
-a:hover{
+h2 a:hover{
   color:white;
   background:#5c5;
 }
